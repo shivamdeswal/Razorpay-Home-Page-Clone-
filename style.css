@@ -1,0 +1,43 @@
+.zigZag{
+    scale: 1.3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 400;
+    transform: translate(-10px,-10px);
+   opacity: 0;
+    transition: all 200ms;
+    
+    
+}
+.box1:hover .fadeIt{
+    background-color: #4b94ed ;
+}
+
+.box1:hover .zigZag{
+    opacity: 100;
+    
+}
+
+.featureSection3{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.moveImage{
+    animation: companyList 10s infinite linear;
+}
+@keyframes companyList {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: -50%;
+    }
+}
+
+.ctaSection{
+    width: 100%;
+    height: 100%;
+}
